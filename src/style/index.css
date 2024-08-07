@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* IRANYEKN FONTS */
+
+@font-face {
+  font-family: Iranyekan-light;
+  src: url("../font/Qs_Iranyekan\ light.ttf");
+}
+@font-face {
+  font-family: Iranyekan-black;
+  src: url("../font/Qs_Iranyekan\ black.ttf");
+}
+@font-face {
+  font-family: Iranyekan-bold;
+  src: url("../font/Qs_Iranyekan\ bold.ttf");
+}
+@font-face {
+  font-family: Iranyekan-extrablack;
+  src: url("../font/Qs_Iranyekan\ extrablack.ttf");
+}
+@font-face {
+  font-family: Iranyekan-extrabold;
+  src: url("../font/Qs_Iranyekan\ extrabold.ttf");
+}
+@font-face {
+  font-family: Iranyekan-medium;
+  src: url("../font/Qs_Iranyekan\ medium.ttf");
+}
+@font-face {
+  font-family: Iranyekan-thin;
+  src: url("../font/Qs_Iranyekan\ thin.ttf");
+}
+@font-face {
+  font-family: Iranyekan;
+  src: url("../font/Qs_Iranyekan.ttf");
+}
+* {
+  font-family: Iranyekan, sans-serif;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+.text-mobile-search {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 2.15;
+}
