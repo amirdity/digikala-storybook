@@ -1,4 +1,6 @@
 import useIsMobile from "../../hooks/useIsMobile";
+import HeaderDesktop from "./Desktop/HeaderDesktop";
+
 // import HeaderDesktop from "./Desktop/HeaderDesktop";
 import HeaderMobile from "./Mobile/HeaderMobile";
 
@@ -10,7 +12,7 @@ function Header() {
       {/* <TopBaner /> */}
       {Mobile && <HeaderMobile />}
       
-      {/* {!Mobile && <HeaderDesktop />} */}
+      {!Mobile && <HeaderDesktop />}
     </>
   );
 }

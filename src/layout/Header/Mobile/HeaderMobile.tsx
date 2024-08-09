@@ -12,13 +12,13 @@ export default function HeaderMobile() {
   return (
     <div
       className="sticky top-0 left-0 w-full z-3 bg-[#fff] h-[65px]"
-      onClick={showAnimation}
+      
     >
       <header
         className="px-4 lg:py-2 py-3 relative flex items-center z-5 bg-base shadow-none border-solid border-b-[1px] border-0 border-base"
         onClick={showAnimation}
       >
-        <div className="w-full bg-[#f0f0f1] rounded-full flex justify-start gap-1 pr-5 items-center align-middle">
+        <div className="w-full bg-[#f0f0f1] rounded-full flex justify-start gap-1 pr-5 py-2 items-center align-middle">
           <img
             src="/asset/header/searchIcon.svg"
             alt="جستجو"

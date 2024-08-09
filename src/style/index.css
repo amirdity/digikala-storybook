@@ -60,10 +60,10 @@
 }
 /* animations */
 .mobileSearchAnimation {
-  animation: showMobile 2s ease;
+  animation: showMobile .3s ease;
 }
 .hideMobileSearchAnimation {
-  animation: hideMobile 1s ease forwards;
+  animation: hideMobile .3s ease forwards;
 }
 .textSubtitleStrong {
   font-size: 0.8rem;

@@ -1,5 +1,5 @@
 import { ComponentProps } from "react";
-import { Button } from "../components/header/Button";
+import { Button } from "./Button";
 import { Meta, StoryObj } from "@storybook/react";
 
 type StoryProps = ComponentProps<typeof Button> &{buttonText:string};
@@ -13,12 +13,12 @@ const meta: Meta<StoryProps> = {
         type: "select"
       }
     },
-    variant: {
-      options: ["primary", "secondary"],
-      control: {
-        type:"select"
-      }
-    }
+    // variant: {
+    //   options: ["primary", "secondary"],
+    //   control: {
+    //     type:"select"
+    //   }
+    // }
   }, args: {
     onClick: () => console.log("clicked")
   }
@@ -28,9 +28,9 @@ type Story = StoryObj<StoryProps>;
 export const primery: Story = {
   args: {
     buttonText: "Login",
-    variant: "primary",
-    size: "md",
-    children: "Login",
+    // variant: "primary",
+    // size: "md",
+    // children: "Login",
     onClick: () => console.log("Login clicked"),
   },
   render:({buttonText,...args}) => <Button {...args}>{buttonText}</Button>

@@ -1,6 +1,8 @@
+import HeaderNavbar from "../../../components/header/HeaderNavbar";
+import MegaMenu from "../../../components/header/MegaMenu";
 import logo from "/asset/header/digikala-logo-asli.svg";
-import MegaMenu from "../../components/header/MegaMenu";
-import HeaderNavbar from "../../components/header/HeaderNavbar";
+// import MegaMenu from "../../components/Header/MegaMenu";
+// import HeaderNavbar from "../../components/header/HeaderNavbar";
 export default function HeaderDesktop() {
   return (
     <header className="w-full flex flex-col border-b-gray-300 border-b-[1px]">
